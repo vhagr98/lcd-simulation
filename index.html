@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16x2 LCD Display Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="lcd-display" id="lcd-display"></div>
+        <input type="text" id="text-input" placeholder="Enter text to display" maxlength="32">
+        <button id="update-button">Update LCD</button>
+        <button id="clear-button">Clear LCD</button>
+        <div class="cursor-controls">
+            <button id="up-button">↑</button>
+            <button id="left-button">←</button>
+            <button id="right-button">→</button>
+            <button id="down-button">↓</button>
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
